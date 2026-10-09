@@ -1,7 +1,5 @@
 # Aura: Offline Wake-Word Voice Activator for Edge Devices
 
-**Smart India Hackathon 2026** | Team ByteSizedBrain | Team ID 133399 **Problem Statement:** SIH26172, Low Latency and Efficient Voice Activator for Edge Devices **Theme:** Smart Automation | **Category:** Hardware
-
 ## Summary
 
 Aura is an offline "Hey Aura" wake-word detector that runs entirely on an ESP32-C3 microcontroller. A 61 KB custom keyword-spotting model listens through an I2S microphone and detects the wake word on the device in about 5 ms per inference step. Only after detection does the device stream the following speech over Wi-Fi to a local backend (speech-to-text, local language model, text-to-speech) and play the reply through its speaker. Audio is not sent anywhere until the wake word is heard.
