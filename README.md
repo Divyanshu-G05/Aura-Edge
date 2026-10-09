@@ -30,10 +30,9 @@ Full measurements and test conditions are in the Technical Documentation.
 
 The repository is organized as follows:
 
-- `firmware/`: ESP-IDF project for the ESP32-C3
-- `backend/`: speech-to-text, LLM and text-to-speech server
-- `training/`: wake-word dataset scripts and training config
-- `docs/`: documentation
+- [`firmware/`](./firmware/): ESP-IDF project for the ESP32-C3
+- [`backend/`](./backend/): speech-to-text, LLM and text-to-speech server
+- [`training/`](./training/): wake-word dataset scripts and training config
 
 ## How to run
 
